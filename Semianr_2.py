@@ -49,11 +49,16 @@
 
 #Напишите программу, в которой пользователь будет задавать две строки, а программа - определять количество вхождений одной строки в другой.
 
-a = " 123 234 543 123 123 123"
-b = "123"
-list = 0
-for i in range(a):
-    if b in a: 
-        a = a[a.find(b)]
-        list.append(i + 1)
-print(*list)
+# a = " 123 234 543 123 123 123"
+# b = "123"
+# print(a.count(b))
+
+#  решение с перебором 
+
+# a = 'pyt'
+# b = 'pythonpythonpython'
+# count = 0
+# for i in range(0, len(b) - len(a)):
+#             if b[i:i + len(a)] == a:
+#                 count += 1
+# print(count)
